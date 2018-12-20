@@ -1,0 +1,39 @@
+@font-face {
+  src: url(1111.woff);
+  font-family: '1111';
+}
+.new{
+  color: blue;
+  font-family: '1111';
+  font-size: 15vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding-bottom: 25px;
+  text-align: center;
+  text-shadow: -14px -20px 18px green;
+}
+
+.new:last-of-type{
+  transform: translate(-47%,-37%);
+  border: none;
+  -webkit-text-stroke: 1px blue;  
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: exclusion;
+
+}
+
+.new:hover {
+  -webkit-text-fill-color: red;
+  transform: scale(-0.5);
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 333px)
+  and (max-width: 600px){
+  body{
+    background: pink;
+  }
+}
